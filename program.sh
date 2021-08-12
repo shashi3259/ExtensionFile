@@ -1,5 +1,5 @@
 
-touch 1.txt 2.txt 3.txt 5.pdf 6.pdf 7.pdf 8.mp3 9.mp3 10.mp3
+touch first.txt 2.txt 3.txt 5.pdf 6.pdf 7.pdf 8.mp3 9.mp3 10.mp3
 for i in `ls *.txt`
 do
 my=`echo $i | awk -F. '{print $2}'`;
